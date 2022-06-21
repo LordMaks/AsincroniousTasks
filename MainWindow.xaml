@@ -25,18 +25,18 @@
 
 
 
-        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="34,25,33,31" Grid.Column="1">
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="34,31,33,31" Grid.Column="1">
             <TextBlock Name="Txt1"  VerticalAlignment="Center" Text="Task 1"/>
             <ProgressBar x:Name="ProgressBar2" Width="250" Margin="80,0" Maximum="100" Height="26"/>
-            <Button Width="40" Height="40" Click="Button_Click_Stop2" Background="White" BorderThickness="0">
-                <Image Source="Resources/cancel.png"/>
+            <Button Width="50" Height="30" Click="Button_Click_Stop2" Background="White" BorderThickness="0">
+                <Image Source="Resources/cancel.png" Height="25" Width="25"/>
             </Button>
         </StackPanel>
-        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="33,31,33,22" Grid.Column="1">
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="33,31,33,30" Grid.Column="1">
             <TextBlock VerticalAlignment="Center" Text="Task 2"/>
             <ProgressBar x:Name="ProgressBar1" Width="250" Margin="80,0" Maximum="100" Height="24"/>
-            <Button Width="40" Height="40" Click="Button_Click_Stop2" Background="White" BorderThickness="0">
-                <Image Source="Resources/cancel.png"/>
+            <Button Width="50" Height="30" Click="Button_Click_Stop2" Background="White" BorderThickness="0">
+                <Image Source="Resources/cancel.png" Height="25" Width="25"/>
             </Button>
         </StackPanel>
         <Button Grid.Row="3" Content="Start" Click="Button_Click_Start" Margin="154,14,187,14" Background="Aquamarine" Grid.Column="1"/>
